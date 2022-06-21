@@ -15,8 +15,8 @@ function App() {
       <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="Home" exact component={Home} /> 
-          <Route path="From" exact component={From} /> 
+          <Route path="/Home" exact component={Home} /> 
+          <Route path="/From" exact component={From} /> 
           <Route path="/details/:id" component={MoveDetails}/>
 
           {
