@@ -21,10 +21,8 @@ class Header extends React.Component {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Link to="/">Home</Link>
-                <Link to="/Home" className="mx-3">Skills</Link>
-                <Link to="/Protfolio" className="mx-3">Protfolio</Link>
-                <Link to="/AddUsre" className="mx-3">AddUsre</Link>
-                <Link to="/Product" className="mx-3">Product</Link>
+                <Link to="/Home" className="mx-3">Moves</Link>
+                <Link to="/From" className="mx-3">From</Link>
                 {/* <Link to="/products" className="mx-3">Products</Link> */}
                 {/* <h3>{language}</h3> */}
               </Nav>
